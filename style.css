@@ -1,0 +1,98 @@
+/* Fundal și stil general */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Georgia', serif; /* font clasic vintage */
+    background-color: #f8d7da; /* roz vintage */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Containerul principal */
+#advice-container {
+    background-color: #fff0f5; /* roz foarte deschis */
+    border: 2px solid #d4a5a5;
+    border-radius: 15px;
+    padding: 40px 30px;
+    text-align: center;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+}
+
+/* Titlu textual */
+#advice-container h1 {
+    font-size: 1.8rem;
+    color: #5a3e36; /* maro vintage */
+    margin-bottom: 20px;
+}
+
+/* Badge vizual */
+#advice-badge {
+    display: inline-block;
+    font-size: 2rem;
+    padding: 15px 20px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    color: #fff;
+    background-color: #d4a5a5;
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+/* Textul advice */
+#advice-text {
+    font-size: 1.2rem;
+    color: #5a3e36;
+    margin-bottom: 25px;
+}
+
+/* Tabel cu metadate */
+#advice-metadata {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 25px;
+    table-layout: auto; /* permite lățime adaptivă */
+}
+
+#advice-metadata th, #advice-metadata td {
+    border: 1px solid #d4a5a5;
+    padding: 12px 20px; /* mai mult padding pentru spațiu între coloane */
+    font-size: 0.95rem;
+    text-align: center;
+}
+
+
+#advice-metadata th {
+    background-color: #f6c1c1;
+    color: #5a3e36;
+}
+
+#advice-metadata tbody tr:nth-child(even) {
+    background-color: #fff0f5;
+}
+
+/* Buton interactiv */
+#get-advice-btn {
+    font-family: 'Georgia', serif;
+    font-size: 1rem;
+    padding: 12px 25px;
+    background-color: #d4a5a5;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.1s, box-shadow 0.1s, background-color 0.3s;
+    box-shadow: 0 4px #b47a7a;
+}
+
+/* Efect la apăsare */
+#get-advice-btn:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px #b47a7a;
+}
+
+/* Hover pe buton */
+#get-advice-btn:hover {
+    background-color: #b47a7a;
+}
