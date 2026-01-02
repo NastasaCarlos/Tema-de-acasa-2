@@ -3,15 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Advice App</title>
+    <title>Advice App Complex</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="advice-container">
+        <!-- Titlu textual -->
+        <h1>💡 Advice of the Moment</h1>
+
+        <!-- Element vizual / badge -->
+        <div id="advice-badge" class="badge">✨</div>
+
+        <!-- Advice text -->
         <p id="advice-text">Apasă butonul pentru un sfat!</p>
+
+        <!-- Tabel cu metadate -->
+        <table id="advice-metadata">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Length</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Buton interactiv -->
         <button id="get-advice-btn">Obține un sfat</button>
     </div>
-    <script src="script.js"></script>
 
+    <script src="script.js"></script>
 </body>
 </html>
